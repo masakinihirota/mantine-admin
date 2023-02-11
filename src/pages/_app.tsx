@@ -13,7 +13,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
           colorScheme: "light",
         }}
       >
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
       </MantineProvider>
     </>
   );
