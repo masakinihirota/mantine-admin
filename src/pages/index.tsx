@@ -13,7 +13,6 @@ import {
 } from "@mantine/core";
 import { DoubleNavBar } from "../components/DoubleNavBar/DoubleNavBar";
 
-
 const Home: NextPage = () => {
   const theme = useMantineTheme();
 
