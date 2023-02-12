@@ -11,7 +11,7 @@ import {
   Burger,
   useMantineTheme,
 } from "@mantine/core";
-import { DoubleNavBar } from "../components/DoubleNavBar/DoubleNavBar";
+import { DoubleNavbar } from "../components/DoubleNavbar/DoubleNavbar";
 
 const Home: NextPage = () => {
   const theme = useMantineTheme();
@@ -28,7 +28,7 @@ const Home: NextPage = () => {
       }}
       navbarOffsetBreakpoint="sm"
       asideOffsetBreakpoint="sm"
-      navbar={<DoubleNavBar />}
+      navbar={<DoubleNavbar />}
       aside={
         <MediaQuery smallerThan="sm" styles={{ display: "none" }}>
           <Aside p="md" hiddenBreakpoint="sm" width={{ sm: 200, lg: 300 }}>
